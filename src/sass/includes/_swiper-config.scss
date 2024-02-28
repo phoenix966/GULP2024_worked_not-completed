@@ -1,0 +1,13 @@
+.swiper-button-prev {
+    color: var(--color-text);
+    &.swiper-button-disabled {
+        display: none;
+    }
+}
+
+.swiper-button-next {
+    color: var(--color-text);
+    &.swiper-button-disabled {
+        display: none;
+    }
+}

@@ -1,0 +1,34 @@
+.header{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 100px;
+    background-color: var(--color-shadow);
+    &__auth{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__wrap{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__container{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__navbar{
+        display: none;
+        @include media(768px){
+            display: unset;
+        }
+    }
+}
+.hamburger--hide{
+    z-index: 4;
+    @include media(768px){
+        display: none;
+    };
+}

@@ -1,0 +1,44 @@
+html,body{
+    margin: 0 auto;
+    padding: 0;
+};
+html{
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: var(--font-regular);
+    scroll-behavior: smooth;
+};
+*{
+    box-sizing: inherit;
+    &::after, &::before{
+        box-sizing: inherit;
+    };
+};
+body{
+    min-width: 320px;
+    position: relative;
+    overflow-x: hidden;
+};
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 10px;
+};
+
+.btn{
+    color: var(--color-text);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.link{
+    color: var(--color-text);
+    text-decoration: none;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}

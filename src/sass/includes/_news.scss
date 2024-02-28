@@ -1,0 +1,20 @@
+.news{
+    &__title{
+        position: relative;
+        font-family: var(--font-design);
+        color: var(--color-text);
+        font-size: 24px;
+        // width: 160px;
+        margin: 25px 10px;
+        &::after{
+            position: absolute;
+            content: "";
+            bottom: -5px;
+            left: 0;
+            height: 2px;
+            border-radius: 5px;
+            width: 130px;
+            background-color: var(--color-text);
+        }
+    }
+}
